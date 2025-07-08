@@ -25,7 +25,7 @@ let newArr = [1,2,3];
     <>
 {/* <> these are called fragments</> */}
       <h1 className="bg-green-400">Test</h1>
-          <Card username ="Chai aur Code" />
+          <Card username ="Chai aur Code" btnText="Clickme" />
           
     </>
   )

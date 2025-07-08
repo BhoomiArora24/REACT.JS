@@ -14,6 +14,10 @@ function App() {
 
   const addValue = () => {
     if(counter < 20){
+      setCounter(prevCounter => prevcounter+1);
+      setCounter(counter+1);
+      setCounter(counter+1);
+      setCounter(counter+1);
       setCounter(counter+1);
     }
     else{
