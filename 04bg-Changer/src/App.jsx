@@ -5,14 +5,15 @@ import './App.css'
 import Bar from './components/bar'
 
 function App() {
-  const [count, setCount] = useState("olive")
+  const [color, setColor] = useState("olive");
 
   return (
     <>
-    
-      <Bar/>
+     <div style={{ backgroundColor: color, height: "100vh" }}>
+      <Bar setColor={setColor} />
+    </div>
     </>
-  )
+  );
 }
 
 export default App
